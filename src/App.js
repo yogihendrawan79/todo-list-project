@@ -24,12 +24,12 @@ const App = () => {
       <div className="flex place-content-center">
         <div className="card w-96 bg-base-100 shadow-xl mb-10">
           <div className="card-body">
-            <h2 className="card-title">Insert Your ToDo-List</h2>
+            <h2 className="card-title">Insert Your To-Do List</h2>
             <div className="form-control">
               <div className="input-group">
                 <input
                   type="text"
-                  placeholder="Input Your ToDo-List Here..."
+                  placeholder="Input Your To-Do List Here..."
                   className="input input-bordered w-full"
                   onChange={(text) => setTask(text.target.value)}
                   value={task}
@@ -59,7 +59,7 @@ const App = () => {
         ) : (
           <div className="flex place-content-center">
             <p>
-              <i>You haven't create todo list yet.</i>
+              <i>You haven't create to-do list yet.</i>
             </p>
           </div>
         )}

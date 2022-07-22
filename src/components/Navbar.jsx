@@ -6,7 +6,9 @@ function Navbar() {
     <>
       <div className="navbar bg-blue-300 mb-10">
         <div className="flex-1 mx-10">
-          <a className="btn btn-ghost normal-case text-xl">ToDo List Project</a>
+          <a className="btn btn-ghost normal-case text-xl">
+            To-Do List Project
+          </a>
         </div>
         <div className="flex-none mx-10">
           <div className="normal-case text-xl mx-3">Yogi Hendrawan</div>
